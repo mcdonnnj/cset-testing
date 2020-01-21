@@ -1,14 +1,14 @@
 # CSET 9.2.1
- 
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/cisagov/cset.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/cisagov/cset/alerts/)
-[![Language grade: C#](https://img.shields.io/lgtm/grade/csharp/g/cisagov/cset.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/cisagov/cset/context:csharp)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/cisagov/cset.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/cisagov/cset/context:javascript)
+
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/mcdonnnj/cset.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/mcdonnnj/cset/alerts/)
+[![Language grade: C#](https://img.shields.io/lgtm/grade/mcdonnnj/g/cisagov/cset.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/mcdonnnj/cset/context:csharp)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/mcdonnnj/cset.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/mcdonnnj/cset/context:javascript)
 
 Download Windows Installer
 [CSET 9.2.1 StandAlone Installer](https://github.com/cisagov/cset2/releases/download/v9.2.1/CSETStandAlone.exe)
 
 
-						
+
 -------------------------------------------------------------------------
 File Checksum Integrity Verifier version 2.05.
 csetstandalone.exe  
@@ -39,13 +39,13 @@ Double-click on the CSETStandAlone program.
 The User Account Control dialogue will come up (Fig.1). Select &quot;Yes&quot;.
 
 ![][fig1]
- 
+
 Figure 1: User Account Control box
 
 A CSET 9.2.1 dialogue will open asking if you want to install CSET 9.2.1 Desktop (Fig.2). Select &quot;Yes&quot;.
 
 ![][fig1]
- 
+
 Figure 2: Install dialogue
 
 The program will begin extracting.
@@ -53,13 +53,13 @@ The program will begin extracting.
 After extracting a CSET 9.2.1 Setup dialogue will open (Fig.3). Select &quot;Install&quot;.
 
 ![][fig3]
- 
+
 Figure 3. CSET Setup
 
 CSET will begin to install. If the user doesn&#39;t have IIS 10.0 Express, CSET will install it. The IIS 10.0 Express Setup dialogue will open (Fig.4). Click the check box to confirm that you &quot;…accept the terms in the License Agreement&quot;, and then select &quot;Install&quot;.
 
 ![][fig4]
- 
+
 Figure 4. IIS Setup
 
 IIS will install. Select &quot;Finish&quot; when it completes.
@@ -67,25 +67,25 @@ IIS will install. Select &quot;Finish&quot; when it completes.
 The CSET 9.2.1 Setup Wizard will open to walk the user through the install process (Fig.5). Select &quot;Next&quot;.
 
 ![][fig5]
- 
+
 Figure 5: Setup Wizard
 
 A disclaimer will open (Fig.6). Read through and then click the box &quot;I read the disclaimer&quot;, and select &quot;next&quot;.
 
 ![][fig6]
- 
+
 Figure 6: Disclaimer
 
 CSET will choose a default folder to install CSET 9.2.1 to, but you can change this in the Destination Folder dialogue (Fig.7). Select &quot;Next&quot;.
 
 ![][fig7]
- 
+
 Figure 7: Destination Folder
 
 The CSET Installer will show that it is ready to install (Fig. 8), select &quot;Install&quot;.
 
 ![][fig8]
- 
+
 Figure 8: Ready to Install
 
 CSET 9.2.0 will be installed. Make sure that the &quot;Launch CSET 9.2.1 when setup exists&quot; box is checked, and select &quot;Finish&quot;.
@@ -93,13 +93,13 @@ CSET 9.2.0 will be installed. Make sure that the &quot;Launch CSET 9.2.1 when se
 The user should see a setup successful dialogue (Fig.9), and then have an option of how they want to open the app. For this example, Edge was used.
 
 ![][fig9]
- 
+
 Figure 9: Setup Successful
 
 The user has access to CSET 9.2.1 as Local User. The Local Installation ribbon is visible at the top of the screen. They can see their landing page with no assessments at this time (Fig.10).
 
 ![][fig10]
- 
+
 Figure 10: Local Install Landing Page
 
 [fig1]: img/fig1.png
@@ -273,4 +273,3 @@ Now that CSET is installed, it must be configured before it can be used.
   - If SQL Server authentication will be used, then a user id and password will need to be provided for the login that will be used
     - E.g.: user id=cset\_user;password=AbC!2#;
   - If Windows domain authentication will be used, then the user id and password will need to be replaced with _Trusted\_Connection=SSPI;_
-
